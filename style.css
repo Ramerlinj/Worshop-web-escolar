@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1d0b7;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-header {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.371);
+    border-radius: 20px;
+}
+
+
+.header img {
+    width: 52px;
+    height: auto;
+}
+
+.header li {
+    list-style: none;
+}
+
+
+.nav ul {
+    display: flex;
+    gap: 15px;
+
+}
+
+.hero {
+    display: flex;
+    margin: 30px 100px;
+}
+
+.hero img {
+    width: 520px;
+    height: auto;
+}
+
+
+.hero-text {
+    font-size: 19px;
+    margin: 0 30px;
+}
+
+.parrafo1 {
+    color: #2f4f6c;
+
+}
+
+.parrafo2 {
+    color: #332203;
+}
+
+.hero-text h1 {
+    color: #f24ab1;
+    font-size: 52px;
+    font-family: "Permanent Marker", cursive;
+    ;
+}
+
+.hero-text>ul {
+    color: #425013;
+}
+
+a {
+    text-decoration: none;
+    color: #265e63;
+}
+
+.container-cuadro{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+}
+.container-cuadro h2{
+    color: #c234eb;
+    font-size: 32px;
+    font-family: "Permanent Marker";
+}
+
+.cuadro{
+    width: 40%;
+    border-radius: 30px;
+    padding: 16px;
+    background-color: rgb(122, 195, 255);
+}
+
+.parrafo3{
+    color: #770f0f;
+}
+
+.footer a {
+    color: rgb(187, 70, 109);
+}
+
+.footer strong {
+    color: rgb(187, 70, 109);
+    font-weight: 400;
+
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 10px;
+
+}
