@@ -14,6 +14,7 @@ section{
     align-items: center;
     height: 100vh;
     position: relative;
+    flex-direction: column;
 }
 
 h1{
@@ -47,4 +48,13 @@ img{
     left: 10%;  
     width: 300px;
     height: auto;
+}
+a{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #579d06;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

@@ -61,7 +61,8 @@ body {
 
 .parrafo1 {
     color: #2f4f6c;
-
+    letter-spacing: 1px;
+    line-height: 1.5;
 }
 
 .parrafo2 {
